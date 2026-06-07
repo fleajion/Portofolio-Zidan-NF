@@ -5,28 +5,28 @@ import { clsx } from "clsx";
 export default function Social({ type }) {
     let [social] = useState([
       {
-        href: "/github",
+        href: "https://github.com/fleajion",
         icon: {
           icon: FaGithub,
           fill: clsx('hover:fill-black')
         },
       },
       {
-        href: "/medium",
+        href: "https://medium.com/@zidannfyourbae999",
         icon: {
           icon: FaMedium,
           fill: clsx("hover:fill-black"),
         },
       },
       {
-        href: "/instagram",
+        href: "https://www.instagram.com/zid4n_np",
         icon: {
           icon: FaInstagram,
           fill: clsx("hover:fill-[url(#instagram-gradient)]"),
         },
       },
       {
-        href: "/linkedin",
+        href: "https://linkedin.com/in/zidan-naufal-firmansyah",
         icon: {
           icon: FaLinkedin,
           fill: clsx('hover:fill-blue-500'),
