@@ -1,4 +1,4 @@
-import { FaGithub, FaFacebook, FaYoutube, FaInstagram, FaNpm } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaMedium, FaInstagram, FaLinkedin, FaNpm } from "react-icons/fa";
 import { useState, Fragment } from "react";
 import { clsx } from "clsx";
 
@@ -12,17 +12,10 @@ export default function Social({ type }) {
         },
       },
       {
-        href: "/facebook",
+        href: "/medium",
         icon: {
-          icon: FaFacebook,
-          fill: clsx('hover:fill-brand-fb')
-        },
-      },
-      {
-        href: "/youtube",
-        icon: {
-          icon: FaYoutube,
-          fill: clsx("hover:fill-red-500"),
+          icon: FaMedium,
+          fill: clsx("hover:fill-black"),
         },
       },
       {
@@ -33,10 +26,10 @@ export default function Social({ type }) {
         },
       },
       {
-        href: "/npm",
+        href: "/linkedin",
         icon: {
-          icon: FaNpm,
-          fill: clsx('hover:fill-red-500'),
+          icon: FaLinkedin,
+          fill: clsx('hover:fill-blue-500'),
         },
       },
     ]);

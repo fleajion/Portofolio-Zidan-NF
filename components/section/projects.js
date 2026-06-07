@@ -5,7 +5,7 @@ import { clsx } from "clsx";
 import Waypoints from "../dust/waypoints";
 
 export default function Projects() {
-    let gh = "https://github.com/JastinXyz";
+    let gh = "https://github.com/fleajion";
     let [projects] = useState([
       {
         name: "Data Siswa",
@@ -63,7 +63,7 @@ export default function Projects() {
         description:
           "whatscode.js is a package to create Whatsapp bots easily and quickly, even coding experience is not really needed...",
         isLeft: false,
-        link: "/discord-bot-landing-page-web",
+        link: "/whatscode-js",
         icon: {
           name: FaNodeJs,
           fill: clsx("group-hover:fill-[#689F63]"),
@@ -154,7 +154,7 @@ export default function Projects() {
               <div className="text-center mt-20">
                 <a
                   className="btn btn-wide"
-                  href="https://github.com/JastinXyz?tab=repositories"
+                  href="https://github.com/fleajion?tab=repositories"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -100,7 +100,7 @@ export default function Contact() {
                       ></div>
 
                       <ul className="list-disc ml-5 mt-1">
-                        <li>{`jstnlt#0255`}</li>
+                        <li>{`reza_lemon#1400`}</li>
                       </ul>
                     </div>
 
@@ -121,19 +121,29 @@ export default function Contact() {
                       <ul className="list-disc ml-5 mt-1">
                         <li>
                           <a
-                            href="mailto:jastinlinggar@gmail.com"
+                            href="mailto:zidanfirmansyah700@gmail.com"
                             className="hover:text-indigo-500"
                           >
-                            jastinlinggar@gmail.com
+                            zidanfirmansyah700@gmail.com
+                          </a>{" "}
+                          (main)
+                        </li>
+
+                        <li>
+                          <a
+                            href="mailto:zidannfyourbae999@gmail.com"
+                            className="hover:text-indigo-500"
+                          >
+                            zidannfyourbae999@gmail.com
                           </a>{" "}
                           (main)
                         </li>
                         <li>
                           <a
-                            href="mailto:contact@jstnlt.my.id"
+                            href="mailto:contact@zidannf.my.id"
                             className="hover:text-indigo-500"
                           >
-                            contact@jstnlt.my.id
+                            contact@ZidanYB.my.id
                           </a>{" "}
                           (second)
                         </li>

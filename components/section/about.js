@@ -9,7 +9,7 @@ export default function About() {
   useEffect(() => {
     (async() => {
       try {
-        const res = await fetch("https://api.github.com/users/JastinXyz");
+        const res = await fetch("https://api.github.com/users/fleajion");
         const data = await res.json();
         setGh(data);
       } catch {
@@ -65,8 +65,8 @@ export default function About() {
                   data-aos-duration="1000"
                 ></div>
                 <p className="mt-2">
-                  {`I live in Purwokerto, Indonesia. My full name is Jastin
-                  Linggar Tama, just call me Jastin. I'm ${umur} years old. A Software
+                  {`I live in Purwokerto, Indonesia. My full name is Zidan Naufal F.
+                  just call me Zidan. I'm ${umur} years old. A Software
                   Engineering student, I have known Programming since 2020 and
                   am quite familiar with HTML, CSS, Javascript and several other
                   languages ​​& frameworks.`}

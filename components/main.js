@@ -26,7 +26,7 @@ export default function Main() {
                     data-aos-duration="1000"
                   >
                     Hi <span className="animate-wave inline-block">👋🏼</span>,
-                    I&apos;m Jastin Linggar T.
+                    I&apos;Zidan Naufal F.
                   </span>
                 </h1>
 

@@ -1,5 +1,5 @@
 import Logo from "./dust/logo";
-import { FaCode, FaHeart, FaGithub, FaFacebook, FaYoutube, FaInstagram, FaNpm } from "react-icons/fa"
+import { FaCode, FaHeart, FaGithub, FaLinkedin, FaMedium, FaInstagram, Faha } from "react-icons/fa"
 import Social from "./dust/social";
 
 export default function Footer() {
@@ -17,7 +17,7 @@ export default function Footer() {
             by{" "}
             <Logo />
             <br />
-            &copy; {new Date().getFullYear()} Copyright JstnLT.
+            &copy; {new Date().getFullYear()} Copyright ZidanYb.
           </p>
         </div>
         <div>

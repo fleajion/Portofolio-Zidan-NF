@@ -5,27 +5,27 @@ const nextConfig = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/JastinXyz",
+        destination: "https://github.com/fleajion",
         permanent: true,
       },
       {
-        source: "/facebook",
-        destination: "https://web.facebook.com/jastin.lt",
+        source: "/linkedin",
+        destination: "https://www.linkedin.com/in/zidan-naufal-firmansyah/",
         permanent: true,
       },
       {
         source: "/youtube",
-        destination: "https://www.youtube.com/c/JastinCh",
+        destination: "https://www.youtube.com/@mrjhons5512",
         permanent: true,
       },
       {
         source: "/instagram",
-        destination: "https://instagram.com/jstn.lt",
+        destination: "https://www.instagram.com/zid4n_np",
         permanent: true
       },
       {
-        source: "/npm",
-        destination: "https://npmjs.com/~jastinlt",
+        source: "/medium",
+        destination: "https://medium.com/@zidannfyourbae999",
         permanent: true
       }
     ];
