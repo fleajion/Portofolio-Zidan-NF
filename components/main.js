@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Typed from "react-typed";
+import { ReactTyped as Typed } from "react-typed";
 import { FaUserAlt } from "react-icons/fa";
 import { MdCode } from 'react-icons/md'
 import { IoIosArrowDropdownCircle } from "react-icons/io";
